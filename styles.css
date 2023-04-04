@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&amp;family=Marcellus&amp;family=Montserrat:wght@400;500&amp;family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,600;1,800;1,900&amp;display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+body{
+    background: url('images/BayView.png') no-repeat center center fixed ;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: auto;
+    overflow: hidden;
+}
+
+
+
+
+.logo-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 1400px;
+}
+
+.logo-img img{
+    width: 60%;
+}
+.menu{
+    width: 100%;
+    max-width: 1200px;
+}
+.menu-links{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    padding: 1rem;
+}
+
+.menu-links .items{
+    width: 100px;
+    height: 100px;
+    border-radius: 30px;
+    background: #FCB9B980;
+    overflow: hidden; 
+    cursor: pointer;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5rem;
+}
+.menu-links .items a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.menu-links .items a:visited{
+    color: black;
+}
+
+
+.social-media{
+    margin-top: 2rem;
+    width: 100%;
+    max-width: 1200px;
+    text-align: center;
+}
+
+.social-links .social a{
+    color: black;
+    text-decoration: none;
+}
+
+.social-links .social a:visited{
+    color: black;
+}
+.social-links .social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;    
+}
+.social-links .social img{
+    width: 30px;
+}
+.footer{
+    margin-top: 15rem;
+}
+.footer a{
+color: black;
+text-decoration: none;
+}
+
+.footer a:visited{
+color: black;
+}
+
+@media screen and (max-width:426px) {
+  .menu-links{
+    width: 100%;
+    padding: 1rem;
+  }
+}
